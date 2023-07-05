@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reg form</title>
+    <h1> Registration form </h1>
+    <h2>Kindly fill this form </h2>
+  </head>
+  
+  <body>
+    <p>
+    <fieldset>
+      <labeL for="firstname">What is your name ? <input id="firstname" type="text"> </label>
+      <label for="age"> How old are you ? <input id="age" type="text"> </label>
+      </fieldset>
+      
+      <fieldset>
+        <label> How do you know us ? </label>
+        <label> Friends <input type="radio"> </label>
+        <label> Family <input type="radio"> </label>
+        <label> social media <input type="radio"> </label>
+      </fieldset>
+    <fieldset>
+      <label>What is your age range ? </label>
+      <select>
+        <option>Choose</option>
+      <option>10-20</option>
+       <option>20-30</option>
+       <option>30-40</option>
+        </select>
+    </fieldset>
+    <fieldset>
+      <label>Tell us more about yourself</label>
+      <textarea rows=5 cols=20 placeholder="I am ....">
+      
+      </textarea>
+      </fieldset>
+   
